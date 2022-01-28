@@ -1,0 +1,223 @@
+@font-face{
+    font-family: "fuente1";
+    src:url('../assets/fonts/Winter\ Sunday.otf');
+}
+
+.carousel-control-prev-icon{
+    background: #000;
+}
+.carousel-control-next-icon{
+    background: #000;
+}
+.carousel-indicators{
+    background-image:linear-gradient(
+    to right,
+    hsla(0, 0%, 0%, 0),
+    hsla(180, 5%, 4%, 0.808),
+    hsla(0, 0%, 0%, 0)
+    );
+}
+.carrusel{
+    text-align: center;
+
+}
+
+.fondo-imagen{
+    background-image: url('../assets/img/Banner_Central_Planes.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+.is-hoverable:hover{
+ background:olivedrab;
+ transition: all 5s;
+}
+.espacio{
+    min-height: 300px;
+}
+.principal{
+	margin-top:50px;
+	font-family: 'Roboto';
+}
+
+
+/*tarjeta 1*/
+.card-header-first{
+	margin-top:-40px;
+    height: 140px;
+	background: linear-gradient(-90deg, #991182, #ef4438); 
+	box-shadow:1px 5px 15px #b13f2b;
+   
+}
+
+/*tarjeta 2*/
+.card-header-second{
+	box-shadow:1px 7px 15px #a2a2a2;
+    margin:-25px -25px 0px -25px;
+    height: 140px;
+	background: linear-gradient(-90deg, #482de2, #7ACDD4); 
+}
+
+/*tarjeta 3*/
+.card-header-third{
+    margin-top:-25px;
+    height: 140px;
+	box-shadow:1px 5px 15px #a2a2a2;
+    background: linear-gradient(-90deg, #c9c618, #F0585F); 
+    
+}
+.card-header-quarter{
+    margin-top:-25px;
+    height: 140px;
+	box-shadow:1px 5px 15px #a2a2a2;
+    background: linear-gradient(-90deg, #c9c618, #6DBA45); 
+    
+}
+.card-header-fifth{
+    margin-top:-25px;
+    height: 140px;
+	box-shadow:1px 5px 15px #a2a2a2;
+    background: linear-gradient(-90deg, #18a0c9, #009D8E); 
+    
+}
+.texto-titulo{
+    font-family: "fuente1";
+    font-size: 4rem;
+    margin: 0px;
+}
+.texto-titulo2{
+    font-family: sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 5rem;
+}
+
+
+.linea-1{
+    background: #2BB175;
+}
+
+/*efecto shadows para todas las tarjetas*/
+.cuadro-fondo1{
+    
+    box-shadow: 15px 15px 0px 0px #b1982b;
+}
+.cuadro-fondo2{
+    
+    box-shadow: 15px 15px 0px 0 #7ACDD4;
+}
+.cuadro-fondo3{
+    
+    box-shadow: 15px 15px 0px 0 #F0585F;
+}
+.cuadro-fondo4{
+    
+    box-shadow: 15px 15px 0px 0 #6DBA45;
+}
+.cuadro-fondo5{
+    
+    box-shadow: 15px 15px 0px 0 #009D8E;
+}
+
+
+
+/*Para el efecto sombra al pasar por encima el mouse*/
+.card-section:hover{
+	box-shadow:1px 1px 20px #d2d2d2;
+}
+.fodo-cuadro{
+    background-color: #fff;
+    
+}
+.button2{
+    border-radius: 20px ;
+  border: 4px solid #b15c2b;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  height: 60px;
+  width: 160px;
+  font-weight: 1000;
+  background: #b15c2b;
+}
+.button3{
+    border-radius: 20px ;
+  border: 4px solid #7ACDD4;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  height: 60px;
+  width: 160px;
+  font-weight: 1000;
+  background: #7ACDD4;
+}
+.button4{
+    border-radius: 20px ;
+  border: 4px solid #F0585F;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  height: 60px;
+  width: 160px;
+  font-weight: 1000;
+  background: #F0585F;
+}
+.button5{
+    border-radius: 20px ;
+  border: 4px solid #6DBA45;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  height: 60px;
+  width: 160px;
+  font-weight: 1000;
+  background: #6DBA45;
+}
+.button6{
+    border-radius: 20px ;
+  border: 4px solid #009D8E;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  height: 60px;
+  width: 160px;
+  font-weight: 1000;
+  background: #009D8E;
+}
+
+.politicas div h4{
+
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.politicas div h4 b a{
+
+    color: #7ACDD4;
+    text-decoration: none;
+}
+.politicas div h5{
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+.politicas div h5 a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media (max-width: 992.98px) {
+    .espacio{
+        min-height: 400px;
+    }
+}
+@media (max-width: 780.98px) {
+    .espacio{
+        min-height: 0px;
+    }
+    .fondo-imagen{
+        background: none;
+    }
+}

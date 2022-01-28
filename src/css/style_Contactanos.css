@@ -1,0 +1,25 @@
+@font-face{
+    font-family: "fuente2";
+    src:url('../assets/fonts/RobotoCondensed-BoldItalic.ttf');
+}
+@font-face{
+    font-family: "fuente3";
+    src:url('../assets/fonts/YanoneKaffeesatz-VariableFont_wght.ttf');
+}
+.card-body{
+    background: none;
+    align-items: center;
+    
+}
+.formularioCon{
+     width: 40rem;
+    
+}
+.title-contatanos{
+    font-family: "fuente2";
+    font-size: 2rem;
+}
+.titulo-contac{
+    font-family: "fuente3";
+    font-size: 4rem;
+}

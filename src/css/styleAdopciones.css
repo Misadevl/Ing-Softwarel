@@ -1,0 +1,83 @@
+@font-face{
+    font-family: "fuente1";
+    src:url('../assets/fonts/Winter\ Sunday.otf');
+}
+.equipo-titulo{
+    font-family: "fuente1";
+    font-size: 5rem;
+}
+.tarjeta-equipo{
+    width: 100%;
+    margin: 0px 0px 0px 30px;
+    border: 6px solid #6DBA45;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 2px #6DBA45;
+    background: #fff;
+    text-align: center;
+}
+.texto-equipo{
+    text-align: center;
+    width: 60%;
+    margin: 0px 0px 0px 100px;
+}
+.texto-equipo p{
+    font-weight: 800;
+}
+.img img{
+    padding: 20px;
+    width: 120rem;
+    height: 25rem;
+}
+.texto-equipo hr{
+    color: #59ff00;
+    height: 4px;
+}
+.button-7{
+    background-color: #009D8E;
+    width: 145px;
+   padding: 13px;
+   border-radius: 20px;
+   border: 2px solid #000;
+   color: #fff;
+   font-weight: 700;
+}
+.button-8{
+    background-color: #D86266;
+    width: 145px;
+   padding: 13px;
+   border-radius: 20px;
+   border: 2px solid #000;
+   color: #fff;
+   font-weight: 700;
+}
+
+
+@media (max-width: 992.98px) {
+    .texto-equipo{
+        margin: 0px 0px 0px 0px;
+    }
+    .tarjeta-equipo{
+        width: 60%;
+        margin: 0px 0px 0px 140px;
+    }
+}
+@media (max-width: 655.98px) {
+    .texto-equipo{
+        margin: 0px 0px 0px 40px;
+    }
+    .tarjeta-equipo{
+        width: 80%;
+        margin: 0px 0px 0px 50px;
+    }
+    
+}
+@media (max-width: 490.98px) {
+    .tarjeta-equipo{
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }  
+    
+    .texto-equipo{
+        margin: 0px 0px 0px 60px;
+    }
+}

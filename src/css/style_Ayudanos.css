@@ -1,0 +1,38 @@
+@font-face{
+    font-family: "fuente1";
+    src:url('../assets/fonts/Winter\ Sunday.otf');
+}
+.card-tamano{
+    margin: 0px 0px 0px 200px ;
+    width: 70%;
+}
+.target:hover{
+    transition: all 1s;
+    transform: scale(1.01);
+}
+.img1{
+    width:18rem;
+    padding: 10px;
+}
+.target-title1{
+    font-family: "fuente1";
+    font-size: 2rem;
+}
+.target{
+    display: flex;
+    
+}
+.texto-cabeza{
+    text-align: center;
+}
+.texto-subcabeza{
+    text-align: center;
+}
+
+
+@media (max-width: 992.98px) {
+    .card-tamano{
+        margin: 0px 0px 0px 0px ;
+        width: 100%;
+    }
+}
